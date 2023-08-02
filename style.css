@@ -1,0 +1,89 @@
+#body{
+    background-color: white;
+    font-family: Helvetica;
+    color:black;
+}
+h1{
+    text-align: center;
+    background-color:rgb(96, 132, 231);
+    font-size:30px;
+    padding:5px;
+    margin: 24px;
+    border: 2px outset blue;
+}
+nav {   
+    display: flex;
+    padding: 5px;
+    margin: 24px;
+    background-color:rgb(181, 193, 193);
+    justify-content: space-around;
+}
+.items:hover {
+    background-color: gray;
+    opacity: 0.6;
+}
+a {
+    width: 20%;
+    text-align:center;
+    text-decoration: none;
+}
+#div1{
+    display: flex;
+}
+#div2{
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+}
+h2{
+    text-align: flex-start;
+    background-color: rgb(181, 193, 193);
+    border:2px solid blue;
+    padding:2px;
+    padding-left: 3px;
+    font-size: 40px;
+    font-weight: 200;
+}
+#about_me{
+    justify-content:flex-end;
+    font-size:32px;
+}
+#self{
+    width: 350px;
+    height: 500px;
+    margin: 25px;
+    border: 2px outset blue;
+}
+.important{
+    font-size: 22px;
+}
+#head3{
+    font-size: 20px;
+    text-align: center;
+    background-color: gray;
+    border: 2px outset blue; 
+    border-radius:25px;
+}
+#div3{
+    background-color:rgb(63, 119, 232); 
+    border:1px solid black;
+    border-radius: 25px;
+}
+h4{
+    font-size:23px;
+    font-family: 'Times New Roman', Times, serif;
+    color:orange;
+    text-decoration: dotted underline;
+    padding:3px;
+    margin:15px;
+}
+.contact{
+    padding:4px;
+    margin:15px;
+    font-size:20px;
+    color:white;
+}
+img{
+    width: 200px;
+    flex-direction:row;
+}
